@@ -14,3 +14,7 @@ build:
 sphinx:
     fail_on_warning: false
     configuration: docs/conf.py
+
+python:
+  install:
+   - requirements: requirements.txt
